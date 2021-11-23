@@ -1,0 +1,88 @@
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+img{
+    width: 450px;
+    height: 300px;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+h1{
+    padding: 10px;
+}
+.floated{
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 150px;
+    margin-left: 70px;
+}
+.cat-text{
+    background-color: rgb(52, 52, 107);
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+}
+.cat-picture{
+    display: block;
+    max-width: 450px;
+    margin-top: 3em;
+}
+.text{
+    padding: 10px;
+}
+.floated-two{
+    max-width: 450px;
+    display: inline-block;
+}
+.floated-two img{
+    display: block;
+}
+.middle-pic{
+    max-width: 250px;
+    max-height: 150px;
+}
+.cat-middle-text{
+    max-width: 250px;
+    background-color:rgb(52, 52, 107);
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+}
+.cat-picture-two{
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+}
+.floated-three{
+    max-width: 450px;
+    margin-top: 20px;
+}
+@media screen and (min-width: 801px) and (max-width: 4000px) {
+    .middle{
+        display: none;
+    }
+    .little{
+        display: none;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .big{
+        display: none;
+    }
+    .little{
+        display: none;
+    }
+    .middle{
+        display: block;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .big{
+        display: none;
+    }
+    .middle{
+        display: none;
+    }
+}
